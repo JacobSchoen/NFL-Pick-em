@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div>
+    <div class="app__router">
       <nav>
         <RouterLink to="/">Home</RouterLink>
       </nav>
@@ -15,5 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-
+  .app__router {
+    display: flex;
+  }
 </style>
